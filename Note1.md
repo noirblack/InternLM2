@@ -43,3 +43,22 @@
 InternLM2经过超过2T的高质量预训练语料训练，适用于不同规模的应用场景。
 
 主要贡献了InternLM2模型，支持200k超长上下文，数据准备指导和 Conditional Online RLHF微调技术
+
+**Infrastructure** 
+1. InternEvo 轻量化的框架，用于模型Pre-training, SFT and RLHF
+
+2. Model Structure: LLaMA基础上使用，Grouped-Query Attention (GQA)支持超长上下文
+
+**Pre-train**
+Text data, Code data, Long context Data
+
+**Alignment**
+1. Supervised Fine-Tuning: 10M instruction instances
+
+2. Conditional Online Reinforcement Learning from Human Feedback (COOL RLHF) 解决偏好冲突和奖励“欺诈”的问题
+
+3. Long context finetuning during SFT and RLHF
+
+4. Tool-Augmented: General tool calling, code interpreter
+
+
