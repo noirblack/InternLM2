@@ -3,7 +3,10 @@
 ![1712846186274](https://github.com/noirblack/InternLM2/assets/9305115/4b56787b-c14c-4589-a13e-d9a24dbde74e)
 
 # 使用HuggingFace下载config.json
-![1712849408289](https://github.com/noirblack/InternLM2/assets/9305115/e87efcd4-3f66-4cc5-bc9f-4776b8974033)
+![image](https://github.com/noirblack/InternLM2/assets/9305115/d818bcb8-87ec-4c5d-9cad-5b2eac207dd5)
+![image](https://github.com/noirblack/InternLM2/assets/9305115/99172467-51a9-4fe8-bcda-645f709ed0f8)
+
+
 
 # 八戒模型部署
 ![image](https://github.com/noirblack/InternLM2/assets/9305115/7840dc09-1269-4dda-9fae-b2bac64588ac)
