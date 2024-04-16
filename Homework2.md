@@ -13,6 +13,6 @@
 
 # Lagent 工具调用 数据分析
 ![image](https://github.com/noirblack/InternLM2/assets/9305115/05e2458b-27fe-473f-ad05-309c60c6f578)
-![Uploading image.png…]()
+![bcaaaf646736c2505a24f2f65a0d240](https://github.com/noirblack/InternLM2/assets/9305115/be993813-da66-4034-b147-373d969fb066)
 
 
