@@ -30,13 +30,58 @@ https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md
 
 这些方法共同构成了一个全面的技术助手解决方案，可以在群聊场景中有效地帮助用户解答问题。
 
-![image](https://github.com/noirblack/InternLM2/assets/9305115/3ac3752d-7899-43a5-aa30-bcbbfa35c437)
+![image](https://github.com/noirblack/InternLM2/assets/9305115/653100ed-6e1b-4bd2-88cd-cee22ca5ce18)
+![image](https://github.com/noirblack/InternLM2/assets/9305115/1ab76521-dd05-4387-beb9-4267c6887ed5)
 
 ## RAG
 RAG（Retrieval Augmented Generation）技术，通过检索与用户输入相关的信息片段，并结合外部知识库来生成更准确、更丰富的回答。解决 LLMs 在处理知识密集型任务时可能遇到的挑战, 如幻觉、知识过时和缺乏透明、可追溯的推理过程等。提供更准确的回答、降低推理成本、实现外部记忆。
 RAG 能够让基础模型实现非参数知识更新，无需训练就可以掌握新领域的知识。茴香豆应用了RAG 技术，可以快速、高效的搭建自己的知识领域助手。
+
+**RAG概述**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/e730c526-50ee-465f-8dac-e5c59dc3e6e6)
+
+**RA原理**
+三个主要部分： index 索引， retrieval 检索， generation 生成
 ![image](https://github.com/noirblack/InternLM2/assets/9305115/ced58c28-07a1-4eb2-99d0-63e8790ab57b)
 
+**向量数据库**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/c07df8c7-b78a-43d1-ba51-277cdae6591e)
+
+**RAG工作流程**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/adb9fc94-3d60-48c3-8d70-a598e682a64d)
+
+**RAG发展历史**
+2020年第一次提出，演化成3种形式：
+- Naive RAG: 问答系统，信息检索
+- Advanced RAG: 摘要生成，内容推荐
+- Modular RAG: 多模态任务，对话系统
+![image](https://github.com/noirblack/InternLM2/assets/9305115/3463f55d-e2a1-48e6-8afc-84ae31f4257f)
+
+**RAG常见优化方法**
+嵌入，索引，查询，上下文管理，迭代检索，递归检索，自适应检索，LLM微调
+![image](https://github.com/noirblack/InternLM2/assets/9305115/cd606cb8-d06a-4908-9332-00c9754f9fa2)
+
+**RAG VS Finetune**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/e384b93e-dcf6-42c5-b4e9-84f6131f7838)
+
+**LLM常用优化方法比较**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/256a3cff-923b-43bb-afb3-412090db86d0)
+
+**RAG技术评价指标**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/04e15852-2b05-44db-8349-03b796445a53)
+
+**RAG总结**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/c677d108-e0f8-4ef1-b016-a33ccb6ee417)
+
+## 茴香豆（豆哥）介绍
+![image](https://github.com/noirblack/InternLM2/assets/9305115/72818009-6bb0-46c5-9a7b-55a80c11ff39)
+
+**豆哥特点**
+![image](https://github.com/noirblack/InternLM2/assets/9305115/2c5ef787-2c6a-4201-a491-9efa69307e7a)
+
+**豆哥构成**
+4个部分：知识库，前端（用户输入），LLM后端，茴香豆组合
+![Uploading image.png…]()
 
 
 
