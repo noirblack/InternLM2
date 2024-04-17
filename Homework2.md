@@ -2,7 +2,7 @@
 
 ![1712846186274](https://github.com/noirblack/InternLM2/assets/9305115/4b56787b-c14c-4589-a13e-d9a24dbde74e)
 
-# 使用HuggingFace下载config.json
+# 进阶作业 使用HuggingFace下载config.json
 ![image](https://github.com/noirblack/InternLM2/assets/9305115/d818bcb8-87ec-4c5d-9cad-5b2eac207dd5)
 ![image](https://github.com/noirblack/InternLM2/assets/9305115/99172467-51a9-4fe8-bcda-645f709ed0f8)
 
